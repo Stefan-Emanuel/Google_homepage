@@ -1,0 +1,158 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px; 
+}
+ul li{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.right{ font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 18px;
+    float: right;
+}
+.right:hover{
+    text-decoration: underline;
+}
+.logo{
+   display: block;
+   margin: auto;
+   margin-top: 70px;
+   width: 300px;
+   height: auto;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(75, 73, 73);
+  }
+
+  #apps{
+      position: relative;
+      top: -6px;
+      opacity: 0.85;
+      left: -10px;
+  }
+  #apps:hover{
+      opacity: 1;
+  }
+  .bara{
+      display: flex;
+      justify-content: center;
+  }
+
+  #search{
+position: relative; 
+background-image: url(https://img.icons8.com/android/24/000000/search.png);
+background-repeat: no-repeat;
+background-size: 18px;
+width: 500px;
+height: 35px;
+padding-left: 40px;
+border: 1px solid #dfe1e5;
+margin: auto;
+z-index: 1;
+background-position-y: 8px;
+background-position-x: 12px;
+border-radius: 20px;
+  }
+  #search:hover{
+    box-shadow: 0 1px 6px 0 rgba(30, 31, 32, 0.28);
+    border-color: rgba(183, 184, 185, 0);
+  }
+  #mic{
+      position: relative; 
+      top:-6px;
+      left: -50px;
+      transform: scale(0.55); 
+      z-index: 2;
+  }
+  #mic:hover{
+      cursor: pointer;
+  }
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-left: -20px;
+}
+.button1{
+    position:relative;
+    left: -25px;
+    top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -100px;
+    border: 1px solid  rgb(231, 229, 229);
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    width: 100px;
+    height: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    color: rgb(102, 101, 101);
+}
+.button2{
+    position:relative;
+    left: 105px;
+    top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -100px;
+    border: 1px solid  rgb(231, 229, 229);
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    width: 150px;
+    height: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    color: rgb(102, 101, 101);
+}
+.button1:hover{
+    box-shadow: 0 1px 4px rgb(109, 109, 109);
+}
+.button2:hover{
+    box-shadow: 0 1px 4px rgb(109, 109, 109);
+}
+.footer{
+    padding-left: 50px;
+}
+.footer-container{
+    display:flex;
+    position: fixed;
+    bottom: 3px;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    justify-content: space-between;
+    line-height: 40px;
+    margin-left: -7px;
+    border-top: 1px solid rgb(209, 208, 208);
+}   
+.footer-left{
+    display: flex;
+   align-content: flex-start;
+   margin-left: -30px;
+   
+}
+.footer-right{
+    display:flex;
+    align-content: flex-end;
+    margin-right: 20px;
+}
+.country{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    bottom: 44px;
+    position: absolute;
+    width:1915px;
+    margin-left: -7px;
+   background-color:rgb(236, 236, 236); 
+   line-height: 44px;
+   border-bottom: 1px solid rgb(238, 236, 236);
+}
+#tara{
+    font-size: 17px;
+    margin-left: 20px;
+}
